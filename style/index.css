@@ -193,3 +193,52 @@ footer button {
     font-size:1.6rem;
     border:1px solid black;
 }
+
+/*800px media query*/
+@media(max-width:500px){
+    header {
+        background-color:#fff;
+        text-align: center;
+    }    
+    h1 {
+        font-size:4.8rem;
+        width:100%;
+        text-align: center;
+    }
+    header nav{
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin:1% 0 0;
+    }
+    section.cta{
+        padding:1%;
+        border:none;
+        flex-direction:column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .inner-container {
+        width:40%
+    }
+    /*Could go back and style one button, buttons are styles seperate for each section*/
+    footer button{
+        width:30%;
+        padding:2%;
+        font-size:2rem;
+    }
+    .right button{
+        width:50%;
+        padding:5%;
+        font-size:2rem;
+    }
+    .left, .right{
+        width:90%;
+        text-align:center;
+        align-items: center;
+    }
+    .right p{
+        font-size:1.6rem;
+    }
+}
